@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
   styleUrl: './main.component.css'
 })
 export class MainComponent {
-  x: number = 15;
-  y: number = 20;
+  content: string = 'Welcome to the main content area.';  
+  title: string = 'Main Content Section';
 }
