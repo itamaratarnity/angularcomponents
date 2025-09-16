@@ -37,6 +37,11 @@
       padding: 1.5rem;
     }
 
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        gap: 15px;
+    }
      /* Responsive */
     @media (max-width: 768px) {
       main {

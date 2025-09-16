@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
+import { CalcComponent } from '../calc/calc.component';
 
 @Component({
   selector: 'app-main',
-  imports: [],
+  imports: [CalcComponent],
   templateUrl: './main.component.html',
   styleUrl: './main.component.css'
 })
